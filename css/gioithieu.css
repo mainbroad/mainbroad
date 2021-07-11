@@ -567,7 +567,7 @@ footer{
   position: relative;
   width: 100%;
   height: auto;
-  padding: 50px 100px;
+  padding: 50px 0px;
   background: #111;
   /* display: flex;
   justify-content: space-between; 
@@ -740,9 +740,9 @@ footer .container-footer .noi-dung.about p{
 }
 
 @media  (max-width: 768px){
-  footer{
+/*   footer{
       padding: 40px;
-           }
+           } */
   footer .container-footer{
       flex-direction: column;
   }
